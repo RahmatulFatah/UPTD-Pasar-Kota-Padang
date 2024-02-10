@@ -1,0 +1,678 @@
+/*==================================
+* Author        : "ThemeSine"
+* Template Name : UPTD PASAR KOTA PADANG  HTML Template
+* Version       : 1.0
+==================================== */
+
+/*==================================
+font-family: 'Poppins', sans-serif;
+font-family: 'Rufina', serif;
+==================================== */
+
+
+/*=========== TABLE OF CONTENTS ===========
+1.  General css (Reset code)
+2.  Top-area
+3.  Welcome-hero
+4.  Model-search
+5.  Parkir
+6.  Sewa-Los
+7.  Sampah
+8.  Client-say
+9.  Brand
+10. Blog
+11. Contact
+==========================================*/
+
+/*-------------------------------------
+		1.General css (Reset code)
+--------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	color:#818998;
+    text-transform:initial;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+}
+
+a,a:hover,a:active,a:focus {
+	display:inline-block;
+	text-decoration:none;
+	color: #444a57;
+	font-size:20px;
+	padding:0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+h1,h2,h3,h4,h5,h6 { 
+	margin: 0;
+	color:#444a57;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+p {
+	margin: 0;
+	color:#818998;
+	font-size:16px;
+    line-height: 1.8;
+    text-transform: initial;
+}
+img{border:none;max-width:100%; height:auto;}
+ul{
+	padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+ul li {
+	list-style: none;
+    display: inline-block;
+	
+}
+select,input,textarea,button,.form-control{box-shadow:none;outline:0!important;}
+button {background: transparent;border: 0;font-size: 16px;text-transform: capitalize;}
+
+html,body{height: 100%;}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.3s 0.3s ease; 
+  -moz-transition: opacity 0.3s 0.3s ease; 
+  -ms-transition: opacity 0.3s 0.3s ease; 
+  -o-transition: opacity 0.3s 0.3s ease; 
+  transition: opacity 0.3s 0.3s ease; 
+  opacity: 0;
+}
+.owl-carousel {z-index: 0;}
+/* section-header */
+.section-header{
+    position: relative;
+    text-align: center;
+}
+.section-header h2{
+    position: relative;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.section-header h2:before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 3px;
+    bottom: 0;
+    left: 47%;
+    margin-left: -42px;
+    background: #1e833c;
+}
+.section-header p{color: #1e833c;text-transform: capitalize;margin-bottom:10px;}
+.section-header h2 span,.section-header p span{text-transform: lowercase;}
+
+/* section-header */
+
+/*=============Style css=========*/
+
+
+/*-------------------------------------
+        2. Top-area
+--------------------------------------*/
+nav.navbar.bootsnav {
+    background-color: transparent;
+    border-bottom: transparent;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #1e833c;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+
+/*.navbar-brand*/
+.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: 'Rufina', serif;
+    font-weight: 800;
+    padding: 45px 0px;
+    text-transform:uppercase;
+}
+.navbar-header a.navbar-brand span{display: inline-block;color:#a8df29;text-transform:capitalize;}
+
+.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
+/*.navbar-brand*/
+
+/*.nav li*/
+nav.navbar.bootsnav ul.nav > li > a {
+    color: #f5f7fa;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform:uppercase;
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+}
+nav.navbar.bootsnav ul.nav > li > a {padding: 48px 21px;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color:#a8df29;}
+nav.navbar.bootsnav ul.nav > li.active>a {color: #a8df29;}
+
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+    content: "";
+}
+nav.navbar.bootsnav ul.nav > li.dropdown span {
+    font-size: 8px;
+    margin-left: 0px;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a{padding:30px 25px;}
+/*.nav li*/
+
+/*.menu-ui-design*/
+.menu-ui-design{overflow-y:scroll;height: 350px;}
+.menu-ui-design::-webkit-scrollbar {
+    width:5px;
+}
+.menu-ui-design::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 8px #000;
+}
+.menu-ui-design::-webkit-scrollbar-thumb {
+  background-color: #1e833c;
+}
+/*.menu-ui-design*/
+
+/*.navbar-toggle */
+nav.navbar.bootsnav .navbar-toggle {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #1e833c;
+    padding: 10px;
+    top: 0;
+}
+nav.navbar.bootsnav .navbar-toggle i{color: #1e833c;}
+/*.navbar-toggle */
+
+.navbar-header img{
+    margin-left: -40rem;
+
+}
+
+
+
+
+/*-------------------------------------
+        3.  Welcome-hero
+--------------------------------------*/
+.welcome-hero {
+    position: relative;
+    background:url(../images/welcome-hero/welcome-banner.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.welcome-hero:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42,45,84,.60);
+}
+.header-area{position: absolute;top:0;left:0;width: 100%;z-index: 99;}
+
+/*.welcome-hero-txt*/
+.welcome-hero-txt{text-align: center;padding:290px 0 372px;}
+.welcome-hero-txt h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.welcome-hero-txt p {
+    font-size: 18px;
+    text-transform: initial;
+    color: #fff;
+    font-weight: 500;
+    max-width: 735px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.welcome-btn {
+    display: inline-block;
+    width: 230px;
+    height: 60px;
+    background: #1e833c;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 55px;
+    -webkit-transition: .3s linear; 
+    -moz-transition:.3s linear; 
+    -ms-transition:.3s linear; 
+    -o-transition:.3s linear;
+    transition: .3s linear;
+    margin-top: 2rem;
+}
+.welcome-btn:hover{
+    background: #a8df29;
+}
+
+.welcome-hero-txt img{
+    margin-bottom: 3rem;
+    margin-top: -15rem;
+}
+
+/*.welcome-hero-txt*/
+
+/*-------------------------------------
+        4. Model-Search
+--------------------------------------*/
+.model-search-content .col-sm-12 {padding: 0;}
+.model-search-content {
+    padding: 40px 0;
+    background: #fff;
+    box-shadow:0 10px 40px 0px rgba(38,40,64,.2);
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+/*.single-model-search*/
+.single-model-search{margin-bottom: 30px;}
+.single-model-search:last-child {margin-bottom: 0;}
+
+.single-model-search h2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/*model-select-icon*/
+.model-select-icon{
+    position:relative;
+}
+.model-select-icon .form-control {
+    outline: 0!important;
+    box-shadow: none;
+    border: 1px solid #f8f8f8;
+    background: #f8f8f8;
+    height: 60px;
+}
+.model-select-icon select {
+    font-size: 16px;
+    color: #888f9d;
+    text-transform: capitalize;
+}
+.model-select-icon:after{
+    position: absolute;
+    content: "\f103";
+    right: 0px;
+    top: 0;
+    font-size: 10px;
+    color: #888f9d;
+    background: #f8f8f8;
+    height: 60px;
+    line-height: 60px;
+    width: 50px;
+    text-align: center;
+    font-family: "Flaticon";
+    pointer-events: none;
+    border: transparent;
+}/*model-select-icon*/
+.welcome-btn.model-search-btn {
+    width: 300px;
+    margin-top: -1500px;
+    margin-left: 400px;
+}
+
+/*.single-model-search*/
+
+/*-------------------------------------
+        5. Parkir 
+--------------------------------------*/
+.Parkir {
+  padding: 10rem 7% 1.4rem;   
+}
+
+.Parkir h2{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    font-weight: 600;
+    color: #333836;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.Parkir p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0%;
+    margin-bottom: -15rem;
+    font-weight: 300;
+    color: #333836;
+}
+
+.Parkir h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #333836;
+}
+.Parkir h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: #333836;
+}
+
+.Parkir table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Parkir th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.Parkir th {
+    background-color: #f2f2f2;
+}
+
+.Parkir input[type="Button"] {
+        background-color : #4CAF50;
+        color: #ffffff;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 10px; 
+        margin-bottom: 40px;
+}
+
+.Parkir input[TYPE="text"],
+        input[TYPE="number"]{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+       
+            
+          
+/*-------------------------------------
+        6. Sewa-Los
+--------------------------------------*/
+
+.Sewa-Los {
+    padding: 10rem 7% 1.4rem;   
+  }
+  
+  .Sewa-Los h2{
+      text-align: center;
+      font-size: 5rem;
+      margin-bottom: 5rem;
+      margin-top: -1rem;
+      font-weight: 600;
+      color: #333836;
+      font-style: italic;
+      text-decoration-line: underline;
+  }
+
+  .Sewa-Los p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: -10rem;
+    font-weight: 300;
+    color: #333836;
+}
+
+.Sewa-Los h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30rem;
+    margin-bottom: 0rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+.Sewa-Los h4{
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 38rem;
+    margin-bottom: 15rem;
+    font-weight: 300;
+    color: #434443;
+
+}
+
+  .Sewa-Los body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+
+/*-------------------------------------
+        7. Sampah
+--------------------------------------*/
+
+.Sampah {
+    padding: 10rem 7% 1.4rem;   
+  }
+
+.Sampah body{
+    font-family: Arial, sans-serif;
+    margin: auto;
+
+}
+
+.Sampah table{
+    border-collapse: collapse;
+    width: 85%;
+    margin: auto;
+}
+
+.Sampah h2{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    font-weight: 600;
+    color: #333836;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.Sampah p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0%;
+    margin-bottom: -15rem;
+    font-weight: 300;
+    color: #333836;
+}
+
+.Sampah h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #333836;
+}
+
+.Sampah h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: #333836;
+}
+
+.Sampah th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.Sampah th {
+    background-color: #f2f2f2;
+}
+
+.Sampah input[type="text"]{
+        width: 85%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-left: 13rem;
+}
+
+.Sampah input[type="number"]{
+        width: 85%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-left: 13rem;
+}
+
+
+.Sampah label {
+    margin-left: 13rem;
+}
+
+.Sampah input[type="submit"] {
+        background-color : #4CAF50;
+        color: #ffffff;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 10px; 
+        margin-bottom: 40px;
+        margin-left: 13rem;
+}
+
+.Sampah input[type="submit"]:hover {
+            background-color: #45a049;
+}
+
+
+/*-------------------------------------
+        10. Blog
+--------------------------------------*/
+
+/*-------------------------------------
+        12. Footer
+--------------------------------------*/
+
+.footer{
+  background: #1e833c;
+  color:white;
+  }  
+.footer h2{
+    color: #ddd;
+    margin-bottom: 1rem;
+    margin-left: -2rem;
+}
+
+.footer p{
+    color: #ddd;
+    font-size:16px;
+    line-height: 1.8;
+    text-transform: initial;
+    margin-left: -2rem;
+}
+
+.footer h4{
+    color: #ddd;
+    margin-bottom: 0.5rem;
+    margin-left: 23rem;
+}
+
+.footer h1{
+    color: #ddd;
+    font-size:16px;
+    line-height: 1.8;
+    text-transform: initial;
+    margin-left: 23rem;
+    margin-right: -28rem;
+    font-weight: 400;
+
+}
+
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{
+    border-top:1px solid #ffffff7e;
+    margin-top: 2rem;
+} 
+
+
+/*===============================
+    Scroll Top
+===============================*/
+#scroll-Top  .return-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    background:#4CAF50;
+	border-radius:50%;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	z-index: 2;
+}
+#scroll-Top  .return-to-top:hover {
+    background:#fff;
+    color: #4CAF50;
+	border:1px solid #4CAF50;
+}
+
+#scroll-Top  .return-to-top i{
+    position:relative;
+    bottom:0;
+
+}
+
+#scroll-Top  .return-to-top i{
+    position: relative;
+    animation-name: example;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+}
+@keyframes example {
+    0%   {bottom:0px;}
+    100%  {bottom:7px;}
+}
+/*========================Thank you=================
